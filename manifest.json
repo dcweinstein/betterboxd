@@ -15,8 +15,7 @@
 	"content_scripts": [
 		{
 			"matches": ["http://www.letterboxd.com/*", "https://letterboxd.com/*", "http://letterboxd.com/*", "https://www.letterboxd.com/*"],
-			"css": ["betterboxd.css"],
-			"js": ["test.js"]
+			"css": ["betterboxd.css"]
 		}
 	],
 	"manifest_version": 2
