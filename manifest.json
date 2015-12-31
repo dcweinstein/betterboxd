@@ -1,0 +1,23 @@
+{
+	"name": "Betterboxd",
+	"version": "1.0",
+	"description": "Letterboxd.com Enhanced",
+	"icons": {
+		"19": "icon.png"
+	},
+	"page_action": {
+		"default_icon": "icon.png",
+		"default_title": "Betterboxd"
+	},
+	"permissions": [
+		"activeTab"
+	],
+	"content_scripts": [
+		{
+			"matches": ["http://www.letterboxd.com/*", "https://letterboxd.com/*", "http://letterboxd.com/*", "https://www.letterboxd.com/*"],
+			"css": ["betterboxd.css"],
+			"js": ["test.js"]
+		}
+	],
+	"manifest_version": 2
+}

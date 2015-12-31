@@ -1,0 +1,16 @@
+.film-watched {
+	border-style: solid;
+	border-width: 3px;
+	border-color: green;
+}
+
+.film-poster {
+	border-style: solid;
+	border-width: 3px;
+	border-color: blue;
+	margin-right: 2px;
+}
+
+.removed-from-watchlist {
+	border-style: hidden;
+}
