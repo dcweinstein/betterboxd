@@ -1,6 +1,6 @@
 Betterboxd
 ==========
-#####Betterboxd is an enhancement suite for Letterboxd.com
+Betterboxd is an enhancement suite for Letterboxd.com
 
 ##Current Features
 1. WatchList highlighting
