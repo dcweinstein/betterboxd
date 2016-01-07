@@ -21,11 +21,15 @@ $(document).ready(function() {
 			}
 			$(".poster-container").prepend("<div class='title-div'></div>");
 			if(showTitles) {
+				$(".title-div").css("display","block");
 				$(".title-div").css({"position":"absolute", "z-index":"99", "width":"100%","background-color":"black", "opacity":".7", "color":"yellow", "margin":"auto"});
 				$(".title-div").each(function(index) {
 					var title = $(this).next().find("span.frame-title").text();
 					$(this).text(title);
 				});
+			}
+			else {
+				$(".title-div").css("display","none");
 			}
 
 		});
