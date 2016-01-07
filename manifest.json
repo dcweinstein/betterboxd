@@ -5,12 +5,20 @@
 	"icons": {
 		"19": "icon.png"
 	},
+	"options_page": "options.html",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
 	"page_action": {
 		"default_icon": "icon.png",
-		"default_title": "Betterboxd"
+		"default_title": "Betterboxd",
+		"default_popup": "options.html"
 	},
 	"permissions": [
-		"activeTab"
+		"tabs",
+		"declarativeContent",
+		"storage"
 	],
 	"content_scripts": [
 		{
