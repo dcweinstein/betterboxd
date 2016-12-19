@@ -7,6 +7,9 @@ $(document).ready(function() {
 
 			if(watchedColor != "disable") {
 				$(".film-not-watched").css("border","3px solid " + watchedColor);
+				if(window.location.href.substring(0, 26) == 'http://letterboxd.com/film') {
+					$(".film-not-watched").css("width","224px");
+				}
 			}
 			else {
 				$(".film-not-watched").css("border-style", "hidden");
@@ -15,6 +18,9 @@ $(document).ready(function() {
 			$(".removed-from-watchlist").css("border-style","hidden");
 			if(watchListColor != "disable") {
 				$(".film-watched").css("border","3px solid " + watchListColor);
+				if(window.location.href.substring(0, 26) == 'http://letterboxd.com/film') {
+					$(".film-watched").css("width","224px");
+				}
 			}
 			else {
 				$(".film-watched").css("border-style","hidden");
